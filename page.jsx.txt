@@ -1,0 +1,185 @@
+export default function StarterHomeLedgerLandingPage() {
+  return (
+    <div className="min-h-screen bg-stone-50 text-stone-900">
+      <header className="border-b border-stone-200 bg-white/90 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <div>
+            <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500">
+              The Starter Home Ledger
+            </div>
+            <div className="text-sm text-stone-600">
+              What it takes to actually build entry-level homes today.
+            </div>
+          </div>
+          <a
+            href="#subscribe"
+            className="rounded-2xl border border-stone-900 px-4 py-2 text-sm font-medium transition hover:bg-stone-900 hover:text-white"
+          >
+            Subscribe
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section className="mx-auto grid max-w-6xl gap-10 px-6 py-20 lg:grid-cols-2 lg:items-center">
+          <div>
+            <div className="mb-4 inline-flex rounded-full border border-stone-300 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-stone-600">
+              Developer-first housing publication
+            </div>
+            <h1 className="max-w-xl text-4xl font-semibold tracking-tight text-stone-950 md:text-6xl">
+              Real numbers. Real constraints. What actually pencils.
+            </h1>
+            <p className="mt-6 max-w-xl text-lg leading-8 text-stone-700">
+              A practical publication for small developers, builders, and infill operators focused on
+              starter homes that can actually be built, financed, and repeated.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="#subscribe"
+                className="rounded-2xl bg-stone-900 px-5 py-3 text-sm font-medium text-white transition hover:opacity-90"
+              >
+                Subscribe for free
+              </a>
+              <a
+                href="#posts"
+                className="rounded-2xl border border-stone-300 bg-white px-5 py-3 text-sm font-medium text-stone-900 transition hover:border-stone-900"
+              >
+                Read sample topics
+              </a>
+            </div>
+            <div className="mt-8 grid max-w-lg grid-cols-3 gap-4 border-t border-stone-200 pt-6 text-sm text-stone-600">
+              <div>
+                <div className="text-2xl font-semibold text-stone-950">900–1,200</div>
+                <div>square feet target</div>
+              </div>
+              <div>
+                <div className="text-2xl font-semibold text-stone-950">1–20</div>
+                <div>unit developer lens</div>
+              </div>
+              <div>
+                <div className="text-2xl font-semibold text-stone-950">0</div>
+                <div>fluff tolerance</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-[2rem] border border-stone-200 bg-white p-6 shadow-sm">
+            <div className="rounded-[1.5rem] border border-stone-200 bg-stone-50 p-6">
+              <div className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">
+                Featured post
+              </div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight text-stone-950">
+                What a Starter Home Means for a Developer
+              </h2>
+              <p className="mt-4 text-sm leading-7 text-stone-700">
+                A starter home is not defined by price alone. It is defined by what can be built,
+                sold, and financed at the entry point of a given market — under real zoning, real
+                cost pressure, and real lender constraints.
+              </p>
+              <div className="mt-6 space-y-3 text-sm text-stone-700">
+                <div className="rounded-2xl bg-white px-4 py-3">
+                  • Why starter homes disappeared
+                </div>
+                <div className="rounded-2xl bg-white px-4 py-3">
+                  • The hard cost ceiling you cannot cross
+                </div>
+                <div className="rounded-2xl bg-white px-4 py-3">
+                  • Why zoning kills deals before financing ever does
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="border-y border-stone-200 bg-white">
+          <div className="mx-auto max-w-6xl px-6 py-16">
+            <div className="max-w-2xl">
+              <div className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">
+                What you get
+              </div>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight text-stone-950 md:text-4xl">
+                Practical analysis for people risking real capital.
+              </h2>
+            </div>
+            <div className="mt-10 grid gap-6 md:grid-cols-3">
+              <div className="rounded-[1.75rem] border border-stone-200 p-6">
+                <h3 className="text-lg font-semibold text-stone-950">Deal anatomy</h3>
+                <p className="mt-3 text-sm leading-7 text-stone-700">
+                  Breakdowns of site yield, zoning envelope, fee pressure, pricing limits, and where
+                  starter-home deals actually fail.
+                </p>
+              </div>
+              <div className="rounded-[1.75rem] border border-stone-200 p-6">
+                <h3 className="text-lg font-semibold text-stone-950">Product that pencils</h3>
+                <p className="mt-3 text-sm leading-7 text-stone-700">
+                  Simple forms, boring plans, efficient layouts, and the product decisions that help
+                  small homes survive real-world cost constraints.
+                </p>
+              </div>
+              <div className="rounded-[1.75rem] border border-stone-200 p-6">
+                <h3 className="text-lg font-semibold text-stone-950">Process reality</h3>
+                <p className="mt-3 text-sm leading-7 text-stone-700">
+                  Entitlement risk, timing drag, utility surprises, and the parts of development that
+                  usually get ignored until they blow up a project.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="posts" className="mx-auto max-w-6xl px-6 py-20">
+          <div className="max-w-2xl">
+            <div className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">
+              Sample topics
+            </div>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-stone-950 md:text-4xl">
+              The kind of posts subscribers can expect.
+            </h2>
+          </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
+            {[
+              "What a Starter Home Means for a Developer",
+              "The Hard Cost Ceiling You Cannot Cross",
+              "Why Zoning Kills Starter Homes Before Financing Ever Does",
+              "The Simplest Product That Still Sells",
+              "A Starter Home Deal That Almost Worked",
+              "Why Repetition Matters More Than Design",
+            ].map((title) => (
+              <div key={title} className="rounded-[1.5rem] border border-stone-200 bg-white px-5 py-4 text-sm font-medium text-stone-800 shadow-sm">
+                {title}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section id="subscribe" className="bg-stone-900 text-stone-50">
+          <div className="mx-auto max-w-4xl px-6 py-20 text-center">
+            <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-300">
+              Subscribe
+            </div>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-5xl">
+              Follow the math behind entry-level housing.
+            </h2>
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-stone-300 md:text-lg">
+              For developers, builders, and operators who want straight analysis on what it takes to
+              build starter homes that can actually work.
+            </p>
+            <form className="mx-auto mt-8 flex max-w-xl flex-col gap-3 sm:flex-row">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full rounded-2xl border border-stone-700 bg-stone-950 px-4 py-3 text-sm text-white placeholder:text-stone-500 focus:border-stone-400 focus:outline-none"
+              />
+              <button
+                type="button"
+                className="rounded-2xl bg-white px-5 py-3 text-sm font-medium text-stone-900 transition hover:opacity-90"
+              >
+                Subscribe free
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
