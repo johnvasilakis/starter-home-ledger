@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Starter Home Ledger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafaf9;
+      color: #1c1917;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      border-bottom: 1px solid #e7e5e4;
+      background: #fff;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .title {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #78716c;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #57534e;
+      margin-top: 5px;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      border: 1px solid #1c1917;
+    }
+
+    .btn-dark {
+      background: #1c1917;
+      color: #fff;
+    }
+
+    .btn-light {
+      background: #fff;
+      color: #1c1917;
+    }
+
+    .hero {
+      padding: 80px 0;
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      line-height: 1.1;
+      margin: 20px 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #44403c;
+      max-width: 600px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e7e5e4;
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    .section {
+      padding: 70px 0;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .footer {
+      background: #1c1917;
+      color: #fff;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    input {
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      width: 250px;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div>
+      <div class="title">The Starter Home Ledger</div>
+      <div class="subtitle">What it takes to actually build entry-level homes today</div>
+    </div>
+    <a href="https://starterhomeledger.substack.com" target="_blank" class="btn btn-light">Subscribe</a>
+  </div>
+</header>
+
+<section class="hero container">
+  <div>
+    <h1>Real numbers. Real constraints. What actually pencils.</h1>
+    <p>
+      A practical publication for developers and builders focused on starter homes
+      that can actually be built, financed, and repeated.
+    </p>
+
+    <br>
+    <a href="https://starterhomeledger.substack.com/subscribe" target="_blank" class="btn btn-light">Subscribe</a>
+    <a href="#posts" class="btn btn-light">Sample topics</a>
+  </div>
+
+  <div class="card">
+    <h3>Featured Post</h3>
+    <h2>What a Starter Home Means for a Developer</h2>
+    <p>
+      A starter home is defined by what can be built, sold, and financed
+      under real constraints — not by marketing labels.
+    </p>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>What you get</h2>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Deal anatomy</h3>
+      <p>Breakdowns of real projects and where they fail.</p>
+    </div>
+
+    <div class="card">
+      <h3>Product that pencils</h3>
+      <p>Simple designs that survive real-world cost pressure.</p>
+    </div>
+
+    <div class="card">
+      <h3>Process reality</h3>
+      <p>Entitlement risk, delays, and hidden costs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="posts" class="section container">
+  <h2>Sample topics</h2>
+
+  <div class="grid grid-2">
+    <div class="card">What a Starter Home Means for a Developer</div>
+    <div class="card">The Hard Cost Ceiling You Cannot Cross</div>
+    <div class="card">Why Zoning Kills Starter Homes</div>
+    <div class="card">The Simplest Product That Still Sells</div>
+  </div>
+</section>
+
+<section id="subscribe" class="footer">
+  <h2>Follow the math behind entry-level housing</h2>
+  <p>For developers who want what actually works.</p>
+
+  <input type="email" placeholder="Enter your email">
+  <button>Subscribe</button>
+</section>
+
+</body>
+</html>
